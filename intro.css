@@ -1,0 +1,31 @@
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ5BdF__fAf_2CPlaZ3jkvurFiELXHCz1BLJBSW5LRPW_w_WRk_g');
+}
+
+.container {
+    margin-top: 20px;
+    /*border: 1px solid black;*/
+}
+
+.intro {
+    height: 35px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+.intro-image {
+	margin-top: 10px;
+}
+.intro-disc {
+	    color: white;
+    font-size: 24px;
+}
+.fa {
+	    font-size: 25px;
+}
+.intro-social {
+	color: white;
+    font-size: 15px;
+}
