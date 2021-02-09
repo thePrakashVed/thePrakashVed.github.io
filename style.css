@@ -294,6 +294,55 @@ body {
       color: white;
   }
 
+  .project-cards {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-left: 29px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* width: 50%; */
+    /* margin-top: -60px; */
+    border-radius: 20px;
+  }
+  .project-name {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-right: 2px solid #6d56c1;
+    padding-right: 20px;
+  }
+  .project-desc {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  .project-desc-title {
+    font-family: Inconsolata, monospace;
+    font-size: 20px;
+    line-height: 20px;
+    color: #6d56c1;
+    font-weight: 700;
+    padding-bottom: 5px;
+  }
+  .project-technology {
+    font-family: Inconsolata, monospace;
+    font-size: 20px;
+    line-height: 20px;
+    color: #999;
+  }
+  .technology-list {
+    font-family: Inconsolata, monospace;
+    font-size: 15px;
+    line-height: 20px;
+    color: #999;
+    padding-bottom: 10px;
+  }
+  .projects-list {
+    margin-bottom: 70px;
+  }
+
   
   .container {
     padding-right: 15px;
@@ -352,6 +401,18 @@ body {
     }
     .skill-progressbar-block {
         width: 100%;
+    }
+    .project-name {
+      padding-right: 10px;
+    }
+    .technology-list{
+      font-size: 10px;
+    }
+    .project-technology {
+      font-size: 15px;
+    }
+    .project-desc-title {
+      font-size: 15px;
     }
   }
   
