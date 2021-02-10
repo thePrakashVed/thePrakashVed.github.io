@@ -56,9 +56,16 @@ body {
     color: white;
     padding-bottom: 10px;
   }
+  .job-discryption {
+    font-size: 16px;
+    color: #ffffffcc;
+    padding-bottom: 10px;
+  }
 
   .first-section {
     padding-right: 10px;
+    color: #ffffffb3;
+    font-weight: 700;
   }
   .social-media {
       text-decoration: underline;
@@ -345,7 +352,17 @@ body {
   .projects-list {
     margin-bottom: 70px;
   }
-
+.data-section {
+  display: flex;
+}
+.image-section {
+  margin-right: 30px;
+}
+.image-section img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
   
   .container {
     padding-right: 15px;
@@ -416,6 +433,19 @@ body {
     }
     .project-desc-title {
       font-size: 15px;
+    }
+    .data-section {
+      display: flex;
+      flex-direction: column;
+    }
+    .image-section {
+      margin-right: 0px;
+      margin-bottom: 30px;
+    }
+    .image-section img {
+      width: 250px;
+      height: 250px;
+      border-radius: 10px;
     }
   }
   
