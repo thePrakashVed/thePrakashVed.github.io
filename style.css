@@ -292,19 +292,9 @@ body {
     text-align: center;
     color: white;
 }
-
 ::placeholder {
     color: white;
     opacity: 1;
-  }
-  .txtarea-message ::placeholder {
-    color: white;  
-  }
-  .txtarea-message:-ms-input-placeholder {
-      color: white;
-  }
-  .txtarea-message::-webkit-input-placeholder {
-      color: white;
   }
 
   .project-cards {
