@@ -63,6 +63,7 @@ body {
   .social-media {
       text-decoration: underline;
       cursor: pointer;
+      color: white;
   }
   .social-contacts {
       flex-grow: 0.3;
@@ -125,6 +126,7 @@ body {
   .fab-icon {
     padding-right: 20px;
     cursor: pointer;
+    color: white;
   }
   .download-icon {
       padding-right: 10px;
