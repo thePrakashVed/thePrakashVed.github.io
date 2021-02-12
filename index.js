@@ -27,7 +27,37 @@ elements.forEach(function (element) {
 //         // }, 300)
 
 //     }
-    
- 
+
+
 //  })();
 // console.log(document.getElementsByClassName('name').innerHTML)
+
+function sendData() {
+  var name = document.getElementById("name").value
+  var email = document.getElementById("email").value
+  var message = document.getElementById("message").value
+
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+      // callback(xhr.responseText);
+      console.log('xhr.responseText', xhr.responseText)
+      makefromEmpty()
+    }
+  }
+  var url = 'https://script.google.com/macros/s/AKfycby00HdN32NGWi8TV3d31MjmMpjPSFyBX_ZOer-TnmwbjrHKocSY3tN5/exec' + "?name=" + name + "&email=" + email + "&message=" + message
+  xhr.open("POST", url, true);
+
+  xhr.send()
+
+}
+function makefromEmpty() {
+  document.getElementById("name").value = ''
+  document.getElementById("email").value = ''
+  document.getElementById("message").value = ''
+  document.getElementById('sucess-txt').style.display = 'block';
+  setTimeout(function() {
+    document.getElementById('sucess-txt').style.display = 'none';
+
+  }, 10000)
+}

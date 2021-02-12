@@ -382,14 +382,16 @@
           </div>
           <div class="latter-box">
             <div class="discryption">Just write me a letter here..</div>
-            <input class="input-box-name" type="text" placeholder="Your name.">
-            <input class="input-box-name" type="text" placeholder="Your Email.">
-            <textarea class="txtarea-message" placeholder="Type the message here."> </textarea>
-            <button type="submit" class="send-btn">Send</button>
+            <iframe name="votar" style="display:none;"></iframe>
+            <form class="latter-box"  id="form-data" method="post" action="" target="votar">
+            <input class="input-box-name" type="text" id="name" name="name" placeholder="Your name.">
+            <input class="input-box-name" type="text" placeholder="Your Email." id="email" name="email">
+            <textarea class="txtarea-message" placeholder="Type the message here." id="message" name="message"> </textarea>
+            <div class="sucess-response" id="sucess-txt">Thanks for your valuable letter.. </div>
+            <button type="submit" class="send-btn" onclick="sendData()">Send</button>
+            </form>
           </div>
-
         </div>
-
       </div>
       <p class="copyright" property="dc:rights">&copy;
         <span property="dc:dateCopyrighted">2021</span>
@@ -403,5 +405,7 @@
   </div>
 </body>
 <script src="./index.js"></script>
+<!-- <script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script> -->
 
 </html>
