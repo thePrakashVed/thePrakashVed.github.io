@@ -415,9 +415,12 @@ body {
   margin-right: 30px;
 }
 .image-section img {
-  width: 250px;
+  /* width: 250px;
   height: 250px;
-  border-radius: 10px;
+  border-radius: 10px; */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
   
   .container {
@@ -505,12 +508,18 @@ body {
       margin-bottom: 30px;
     }
     .image-section img {
-      width: 250px;
+      /* width: 250px;
       height: 250px;
-      border-radius: 10px;
+      border-radius: 10px; */
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
     }
     .project-card-list{
       flex-direction: column;
+    }
+    .image-section img {
+      text-align: center;
     }
   }
   
