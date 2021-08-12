@@ -56,7 +56,7 @@ function makefromEmpty() {
   document.getElementById("email").value = ''
   document.getElementById("message").value = ''
   document.getElementById('sucess-txt').style.display = 'block';
-  setTimeout(function() {
+  setTimeout(function () {
     document.getElementById('sucess-txt').style.display = 'none';
 
   }, 10000)
