@@ -41,7 +41,7 @@ body {
     animation: type 4s steps(60, end);
     margin: 0px;
     font-size: 40px;
-
+    font-family: 'Sacramento', cursive;
   }
 
   /* @keyframes type{ 
