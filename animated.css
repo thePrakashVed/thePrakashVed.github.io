@@ -1,0 +1,52 @@
+.im {
+    user-select: auto;
+    color: white;
+  }
+.cd-words-wrapper {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    font-family: 'Sacramento', cursive;
+
+   }
+  .cd-words-wrapper b {
+      display: inline-block;
+      position: absolute;
+      white-space: nowrap;
+      font-weight: 400;
+      left: 0;
+      top: 0;
+      color: white;
+   }
+    .cd-words-wrapper b.is-visible {
+      position: relative; }
+  
+  .no-js .cd-words-wrapper b {
+    opacity: 0; }
+  
+  .no-js .cd-words-wrapper b.is-visible {
+    opacity: 1; }
+  
+  .cd-headline.clip span {
+    display: inline-block;
+    padding: .2em 0; }
+  
+  .cd-headline.clip .cd-words-wrapper {
+    overflow: hidden;
+    vertical-align: top; }
+  
+  .cd-headline.clip .cd-words-wrapper::after {
+    /* line */
+    content: '';
+    position: absolute;
+    top: 6px;
+    right: 0;
+    width: 2px;
+    height: 80%;
+    background-color: white; }
+  
+  .cd-headline.clip b {
+    opacity: 0; }
+  
+  .cd-headline.clip b.is-visible {
+    opacity: 1; }
