@@ -1,0 +1,10 @@
+$font-family-poppins: 'Poppins Regular';
+$font-family-sans-serif: 'sans-serif';
+
+$app-font-family: $font-family-poppins, $font-family-sans-serif;
+
+@font-face {
+    font-family: $font-family-poppins;
+    src: url(../fonts/Poppins-Regular.ttf) format('truetype');
+    font-display: swap;
+}
