@@ -28,7 +28,7 @@ development , PWA app development using Angular, VueJs." />
     content="https://user-images.githubusercontent.com/28899919/129207040-e70b03a7-fda2-4ccc-9a88-2cc177cba3fc.jpeg" />
   <meta name="author" content="Ved Prakash">
   <meta name="google-site-verification" content="g5KN2H4U9cP0KIBfCsow1rYOuR1ULuHBlvB7K400w8Q" />
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="./assets/jquery.min.js" ></script>
 </head>
 
 <body oncontextmenu="return false;">
@@ -518,6 +518,9 @@ development , PWA app development using Angular, VueJs." />
   jQuery.ajax({
     url:'https://script.google.com/macros/s/AKfycbxwwczq8Q6vQS_b4AyC6O6nVG8IKV86Y5BYZWt0Xgj6nX0aHZAoCOzB9YbII_LHEOp1/exec',
     type:'post',
+    headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+    },
     data:jQuery('#frmSubmit').serialize(),
     success:function(result){
       jQuery('#frmSubmit')[0].reset();
